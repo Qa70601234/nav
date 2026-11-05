@@ -3,7 +3,7 @@
   "installCommand": "pnpm install",
   "buildCommand": "npm run build",
   "outputDirectory": "dist/browser",
-  "nodeVersion": "22.12.0",
+  "nodeVersion": "24.18.0",
   "headers": [
     {
       "source": "/manifest.webmanifest",
