@@ -1,0 +1,11 @@
+# pnpm 10.16+ 已把 onlyBuiltDependencies 等配置从 package.json 的 pnpm 块
+# 迁移到 pnpm-workspace.yaml；EdgeOne 构建机的 pnpm 较新，
+# 不补这个文件会报 ERR_PNPM_IGNORED_BUILDS 并以非 0 退出。
+# 这个列表与 package.json 里 pnpm.onlyBuiltDependencies 保持一致。
+onlyBuiltDependencies:
+  - "@parcel/watcher"
+  - esbuild
+  - lmdb
+  - msgpackr-extract
+  - puppeteer
+  - sharp
